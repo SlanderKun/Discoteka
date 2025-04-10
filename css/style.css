@@ -214,6 +214,9 @@ a {
   flex-direction: row;
   justify-content: space-between;
 }
+.header__join a{
+  width: 100%;
+}
 @media screen and (max-width: 1600px) {
   .header__join {
     margin-left: 115px;
@@ -240,7 +243,7 @@ a {
     flex-direction: column-reverse;
     justify-content: right;
     align-items: flex-start;
-    width: 50%;
+    width: 80%;
     margin-left: auto;
   }
 }
@@ -312,11 +315,14 @@ a {
 }
 .join__button_inside{
   color: var(--secondaryTextColor);
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-color: white;
   border-width: 3px;
   border-style: solid;
-  width: 96%;
+  width: 100%;
+  margin: 0 5px;
   height: 85%;
   background-color: black;
   font-family: Neue Machina;
@@ -368,32 +374,32 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 516px;
+  width: 100%;
   height: 90px;
   background-color: black;
   text-align: center;
 }
 @media screen and (max-width: 1600px) {
   .join__button {
-    width: 448px;
+    width: 100%;
     height: 80px;
   }
 }
 @media screen and (max-width: 1200px) {
   .join__button {
-    width: 269px;
+    width: 100%;
     height: 46px;
   }
 }
 @media screen and (max-width: 800px) {
   .join__button {
-    width: 179px;
+    width: 100%;
     height: 27px;
   }
 }
 @media screen and (max-width: 500px) {
   .join__button {
-    width: 197px;
+    width: 100%;
     height: 31px
   }
 }
